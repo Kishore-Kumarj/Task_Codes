@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JalaTask]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MoreTasks(failed)">
+    <classes>
+      <class name="testCases.More_TestCase">
+        <methods>
+          <include name="more"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.More_TestCase -->
+    </classes>
+  </test> <!-- MoreTasks(failed) -->
+</suite> <!-- Failed suite [JalaTask] -->

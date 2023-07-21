@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JalaTask">
+	<test name="Login">
+		<classes>
+			<class name="testCases.LogIn_TestCase"></class>
+		</classes>
+	</test>
+	<test name="CreateEmployee">
+		<classes>
+			<class name="testCases.CreateEmployee_TestCase"></class>
+		</classes>
+	</test>
+	<test name="SearchEmployee">
+		<classes>
+			<class name="testCases.SearchEmployee_TestCase"></class>
+		</classes>
+	</test>
+	<test name="MoreTasks">
+		<classes>
+			<class name="testCases.More_TestCase"></class>
+		</classes>
+	</test>
+	<test name="SignOut">
+		<classes>
+			<class name="testCases.LogOut_TestCase"></class>
+		</classes>
+	</test>
+</suite>
